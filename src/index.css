@@ -1,0 +1,31 @@
+<div className="app-container">
+  <header className="header">
+    <h1>🎓 Admissions Voice Assistant</h1>
+    <p>Ask me about courses, fees, durations & more!</p>
+  </header>
+
+  <main className="content">
+    <div className="assistant-box">
+      <iframe
+        src="https://app.vapi.ai/call/YOUR_AGENT_ID"
+        title="Admissions Assistant"
+        allow="microphone"
+        className="assistant-iframe"
+      ></iframe>
+    </div>
+
+    <div className="info-box">
+      <h2>💡 How to Use</h2>
+      <ul>
+        <li>🎤 Click the mic to begin</li>
+        <li>Ask about BCA, BSc IT, etc.</li>
+        <li>Ask for scholarship fees or duration</li>
+        <li>Say “connect me” to reach a human</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer className="footer">
+    <p>© 2025 Admissions Assistant • Built by Yash Patil</p>
+  </footer>
+</div>
